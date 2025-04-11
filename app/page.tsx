@@ -1,101 +1,105 @@
-import Image from "next/image";
+
+import ProductCard from "./components/product_card";
 
 export default function Home() {
+  const products = [
+    {
+      id: 1,
+      title: "Nike Air Max ",
+      price: 120,
+      discount: 25,
+      rating: 4.6,
+      img: "https://www.pandashop.md/i/products/205/2056383.jpg",
+    },
+    {
+      id: 2,
+      title: "Fleece ",
+      price: 180,
+      discount: 15,
+      rating: 4.8,
+      img: "https://i.pinimg.com/originals/79/b6/5b/79b65b2d5821f783ac273d738ceea5b5.jpg",
+    },
+    {
+      id: 3,
+      title: "Куртки мужские ",
+      price: 90,
+      discount: 10,
+      rating: 4.3,
+      img: "https://avatars.mds.yandex.net/i?id=16f129d4ec9d94d08e4562d00ae9e825_l-8819226-images-thumbs&n=13",
+    },
+    {
+      id: 4,
+      title: "Женские куртки ",
+      price: 75,
+      discount: 20,
+      rating: 4.5,
+      img: "https://ae03.alicdn.com/kf/S4a238bfb90b34f8a80ab29f298c254beG.jpg",
+    },
+    {
+      id: 5,
+      title: "Пальто класические",
+      price: 65,
+      discount: 5,
+      rating: 4.7,
+      img: "https://sheily.ru/wp-content/uploads/2023/10/kapuch-2-2-800x1080.jpg",
+    },
+    {
+      id: 6,
+      title: "Юбка миди",
+      price: 50,
+      discount: 10,
+      rating: 4.6,
+      img: "https://i.pinimg.com/736x/4e/8b/f2/4e8bf247ea2d12e56b2759a7d3990af8.jpg",
+    },
+    {
+      id: 7,
+      title: "Рубашка полосатая",
+      price: 110,
+      discount: 12,
+      rating: 4.4,
+      img: "https://ae04.alicdn.com/kf/H06c83ccb125248ff8df96db29355738ft.jpg",
+    },
+    {
+      id: 8,
+      title: "Блузка шелковая",
+      price: 140,
+      discount: 0,
+      rating: 4.2,
+      img: "https://avatars.mds.yandex.net/i?id=dd2493ead34426e41a59a63b1a64101a_l-12202401-images-thumbs&n=13",
+    },
+    {
+      id: 9,
+      title: "Asics Gel-Kayano",
+      price: 130,
+      discount: 18,
+      rating: 4.5,
+      img: "https://m.media-amazon.com/images/I/61DYVIoNFnL._AC_UF1000,1000_QL80_.jpg",
+    },
+    {
+      id: 10,
+      title: "Костюм ",
+      price: 150,
+      discount: 10,
+      rating: 4.9,
+      img: "https://ae04.alicdn.com/kf/A01b6ed1b088b4431aa060e8e0881c716j.jpg",
+    },
+  ];
   return (
-    <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
-      <main className="flex flex-col gap-8 row-start-2 items-center sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={180}
-          height={38}
-          priority
-        />
-        <ol className="list-inside list-decimal text-sm text-center sm:text-left font-[family-name:var(--font-geist-mono)]">
-          <li className="mb-2">
-            Get started by editing{" "}
-            <code className="bg-black/[.05] dark:bg-white/[.06] px-1 py-0.5 rounded font-semibold">
-              app/page.tsx
-            </code>
-            .
-          </li>
-          <li>Save and see your changes instantly.</li>
-        </ol>
-
-        <div className="flex gap-4 items-center flex-col sm:flex-row">
-          <a
-            className="rounded-full border border-solid border-transparent transition-colors flex items-center justify-center bg-foreground text-background gap-2 hover:bg-[#383838] dark:hover:bg-[#ccc] text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={20}
-              height={20}
+    <div>
+      <div className="container p-12 mx-auto">
+        <div className="grid grid-cols-4 gap-x-0.5 gap-y-1">
+          {products.map((e) => (
+            <ProductCard
+              key={e.id}
+              title={e.title}
+              price={e.price}
+              discount={e.discount}
+              img={e.img}
+              rating={e.rating}
             />
-            Deploy now
-          </a>
-          <a
-            className="rounded-full border border-solid border-black/[.08] dark:border-white/[.145] transition-colors flex items-center justify-center hover:bg-[#f2f2f2] dark:hover:bg-[#1a1a1a] hover:border-transparent text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 sm:min-w-44"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Read our docs
-          </a>
+          ))}
         </div>
-      </main>
-      <footer className="row-start-3 flex gap-6 flex-wrap items-center justify-center">
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/file.svg"
-            alt="File icon"
-            width={16}
-            height={16}
-          />
-          Learn
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/window.svg"
-            alt="Window icon"
-            width={16}
-            height={16}
-          />
-          Examples
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/globe.svg"
-            alt="Globe icon"
-            width={16}
-            height={16}
-          />
-          Go to nextjs.org →
-        </a>
-      </footer>
+      </div>
     </div>
   );
 }

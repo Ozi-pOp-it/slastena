@@ -1,0 +1,250 @@
+{
+  "mans": [
+    {
+      "id": 1,
+      "title": "джинсы",
+      "price": 49,
+      "discount": 25,
+      "rating": 3.8,
+      "img": "https://placehold.co/600x400/png"
+    },
+    {
+      "id": 5,
+      "title": "рубашка хлопковая",
+      "price": 176,
+      "discount": 20,
+      "rating": 4.9,
+      "img": "https://placehold.co/600x400/png"
+    },
+    {
+      "id": 9,
+      "title": "джинсы",
+      "price": 175,
+      "discount": 0,
+      "rating": 3.8,
+      "img": "https://placehold.co/600x400/png"
+    },
+    {
+      "id": 13,
+      "title": "рубашка хлопковая",
+      "price": 91,
+      "discount": 0,
+      "rating": 3.6,
+      "img": "https://placehold.co/600x400/png"
+    },
+    {
+      "id": 17,
+      "title": "футболка",
+      "price": 231,
+      "discount": 15,
+      "rating": 4.4,
+      "img": "https://placehold.co/600x400/png"
+    },
+    {
+      "id": 21,
+      "title": "рубашка хлопковая",
+      "price": 74,
+      "discount": 0,
+      "rating": 3.7,
+      "img": "https://placehold.co/600x400/png"
+    },
+    {
+      "id": 25,
+      "title": "брюки классические",
+      "price": 221,
+      "discount": 20,
+      "rating": 3.7,
+      "img": "https://placehold.co/600x400/png"
+    },
+    {
+      "id": 29,
+      "title": "рубашка хлопковая",
+      "price": 189,
+      "discount": 20,
+      "rating": 4.7,
+      "img": "https://placehold.co/600x400/png"
+    }
+  ],
+  "womans": [
+    {
+      "id": 2,
+      "title": "пиджак",
+      "price": 140,
+      "discount": 30,
+      "rating": 4.7,
+      "img": "https://placehold.co/600x400/png"
+    },
+    {
+      "id": 6,
+      "title": "юбка длинная",
+      "price": 34,
+      "discount": 30,
+      "rating": 3.7,
+      "img": "https://placehold.co/600x400/png"
+    },
+    {
+      "id": 10,
+      "title": "пиджак",
+      "price": 73,
+      "discount": 30,
+      "rating": 4.9,
+      "img": "https://placehold.co/600x400/png"
+    },
+    {
+      "id": 14,
+      "title": "бузлак шелковая",
+      "price": 122,
+      "discount": 25,
+      "rating": 3.7,
+      "img": "https://placehold.co/600x400/png"
+    },
+    {
+      "id": 18,
+      "title": "платье летнее",
+      "price": 91,
+      "discount": 30,
+      "rating": 4.8,
+      "img": "https://placehold.co/600x400/png"
+    },
+    {
+      "id": 22,
+      "title": "пиджак",
+      "price": 54,
+      "discount": 0,
+      "rating": 4.2,
+      "img": "https://placehold.co/600x400/png"
+    },
+    {
+      "id": 26,
+      "title": "бузлак шелковая",
+      "price": 73,
+      "discount": 10,
+      "rating": 4.5,
+      "img": "https://placehold.co/600x400/png"
+    },
+    {
+      "id": 30,
+      "title": "пиджак",
+      "price": 172,
+      "discount": 15,
+      "rating": 4.8,
+      "img": "https://placehold.co/600x400/png"
+    }
+  ],
+  "shoes": [
+    {
+      "id": 3,
+      "title": "мокасины",
+      "price": 90,
+      "discount": 10,
+      "rating": 3.6,
+      "img": "https://placehold.co/600x400/png"
+    },
+    {
+      "id": 7,
+      "title": "туфли",
+      "price": 51,
+      "discount": 15,
+      "rating": 3.8,
+      "img": "https://placehold.co/600x400/png"
+    },
+    {
+      "id": 11,
+      "title": "сандалии",
+      "price": 68,
+      "discount": 5,
+      "rating": 5.0,
+      "img": "https://placehold.co/600x400/png"
+    },
+    {
+      "id": 15,
+      "title": "мокасины",
+      "price": 151,
+      "discount": 5,
+      "rating": 4.9,
+      "img": "https://placehold.co/600x400/png"
+    },
+    {
+      "id": 19,
+      "title": "сандалии",
+      "price": 83,
+      "discount": 0,
+      "rating": 4.6,
+      "img": "https://placehold.co/600x400/png"
+    },
+    {
+      "id": 23,
+      "title": "туфли",
+      "price": 213,
+      "discount": 15,
+      "rating": 4.4,
+      "img": "https://placehold.co/600x400/png"
+    },
+    {
+      "id": 27,
+      "title": "мокасины",
+      "price": 246,
+      "discount": 25,
+      "rating": 4.7,
+      "img": "https://placehold.co/600x400/png"
+    }
+  ],
+  "hats": [
+    {
+      "id": 4,
+      "title": "шапка",
+      "price": 94,
+      "discount": 5,
+      "rating": 3.8,
+      "img": "https://placehold.co/600x400/png"
+    },
+    {
+      "id": 8,
+      "title": "панама",
+      "price": 168,
+      "discount": 30,
+      "rating": 3.5,
+      "img": "https://placehold.co/600x400/png"
+    },
+    {
+      "id": 12,
+      "title": "панама",
+      "price": 118,
+      "discount": 0,
+      "rating": 4.9,
+      "img": "https://placehold.co/600x400/png"
+    },
+    {
+      "id": 16,
+      "title": "кепка",
+      "price": 172,
+      "discount": 30,
+      "rating": 4.7,
+      "img": "https://placehold.co/600x400/png"
+    },
+    {
+      "id": 20,
+      "title": "шляпа",
+      "price": 143,
+      "discount": 15,
+      "rating": 4.7,
+      "img": "https://placehold.co/600x400/png"
+    },
+    {
+      "id": 24,
+      "title": "кепка",
+      "price": 77,
+      "discount": 0,
+      "rating": 4.8,
+      "img": "https://placehold.co/600x400/png"
+    },
+    {
+      "id": 28,
+      "title": "панама",
+      "price": 69,
+      "discount": 10,
+      "rating": 4.4,
+      "img": "https://placehold.co/600x400/png"
+    }
+  ]
+}
